@@ -16,7 +16,7 @@ public class Login {
         while (true) {
             System.out.println("1. NEW USER\n2. LOGIN\n3. EXIT");
             int input = s.nextInt();
-            s.nextLine(); // Consume newline left-over
+            s.nextLine();
             if (input == 1) {
                 System.out.println("CREATE AN ACCOUNT\n\n");
                 insertdata();
